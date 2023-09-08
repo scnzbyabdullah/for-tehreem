@@ -1,14 +1,15 @@
-# for-tehreem
 <!DOCTYPE html>
 <html>
 <head>
     <title>Your Love Adventure</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f7f7f7;
             margin: 0;
             padding: 0;
+            text-align: center; /* Center align all content */
         }
 
         header {
@@ -25,7 +26,9 @@
 
         .container {
             text-align: center;
-            margin: 20px;
+            margin: 20px auto; /* Center align the container and provide some top and bottom margin */
+            max-width: 600px; /* Limit the maximum width of the container */
+            padding: 0 20px; /* Add some padding to the container */
         }
 
         p {
@@ -55,3 +58,4 @@
     </div>
 </body>
 </html>
+
