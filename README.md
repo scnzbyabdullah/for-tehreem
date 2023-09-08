@@ -22,6 +22,7 @@
             font-size: 32px;
             color: #fff;
             margin: 0;
+            text-align: center; /* Center align the title on all screens */
         }
 
         .container {
@@ -39,6 +40,13 @@
 
         .heart {
             color: #ff6b6b;
+        }
+
+        @media (max-width: 600px) {
+            /* Apply styles for screens with a maximum width of 600px (typical for mobile) */
+            h1 {
+                font-size: 24px; /* Adjust the title font size for smaller screens */
+            }
         }
     </style>
 </head>
@@ -58,4 +66,5 @@
     </div>
 </body>
 </html>
+
 
