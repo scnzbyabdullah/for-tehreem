@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <head>
     <title>Your Love Adventure</title>
@@ -9,6 +9,9 @@
             background-color: #f7f7f7;
             margin: 0;
             padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             text-align: center; /* Center align all content */
         }
 
@@ -22,7 +25,6 @@
             font-size: 32px;
             color: #fff;
             margin: 0;
-            text-align: center; /* Center align the title on all screens */
         }
 
         .container {
@@ -66,5 +68,3 @@
     </div>
 </body>
 </html>
-
-
